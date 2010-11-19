@@ -1,6 +1,5 @@
 # Raphaël-VEMap
-### A little plugin for the [Raphaël](http://raphaeljs.com/) Javascript SVG library integrating with BingMaps VEMap instance.  Based upon the 
-[Raphaël-ZPD](https://github.com/somnidea/raphael-zpd), "zoom/pan/drag" plugin.
+### A little plugin for the [Raphaël](http://raphaeljs.com/) Javascript SVG library integrating with BingMaps VEMap instance.  Based upon the [Raphaël-ZPD](https://github.com/somnidea/raphael-zpd), "zoom/pan/drag" plugin.  Listens to VEMap events "onendpan" and "onendzoom" and executes required transformations upon the Raphael canvas to synchronize with the VEMap's pan/zoom.
 ## Usage
 
 Create a Raphaël paper object, then call the VEMap initialization function with your VEMap instance (before performing any drawing operations):
