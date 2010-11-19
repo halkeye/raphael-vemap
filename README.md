@@ -8,9 +8,9 @@ Create a Raphaël paper object, then call the VEMap initialization function with
 
   var paper = Raphael(yourVEMapInstance.GetsvgDiv(), '100%', '100%');
   paper.VEMap(yourVEMapInstance);
-      
-      
+    
 	paper.VEMap(yourVEMapInstance);
+	var paper = Raphael(yourVEMapInstance.GetsvgDiv(), '100%', '100%');
 
 Repeated calls to this function may be used to alter the settings as needed. You may disable the drag functionality on the basis of individual 
 
