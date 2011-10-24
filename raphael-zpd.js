@@ -120,7 +120,7 @@
 			var delta;
 
 			if(evt.wheelDelta)
-				delta = evt.wheelDelta / 3600; // Chrome/Safari
+				delta = evt.wheelDelta / (opts.chomeZoomDelta || 3600); // Chrome/Safari
 			else
 				delta = evt.detail / -90; // Mozilla
 
